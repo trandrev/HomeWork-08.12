@@ -3,8 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class="feedback-form">
+
+    <div class="inform">
+        <h1>Let's Talk <img src="https://api.iconify.design/twemoji:waving-hand.svg"></h1>
+        <p>If you have any question or issue's to use our product. Fill the form below. We'll help you.</p>
+    </div>
+
+    <form method="get">
+        <table>
+            <tr>
+                <td>
+                    <p><label>Your name<span>*</span></label></p>
+                    <input type="text" name="name" placeholder="Enter your name">
+                </td>
+                <td>
+                    <p><label>Your email<span>*</span></label></p>
+                    <input type="text" name="email" placeholder="Enter your email">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> 
+                    <p><label>Choose topic<span>*</span></label></p>
+                    <select name="topic">
+                        <option value="none" hidden="">Select one topic</option>
+                        <option value="topic_1">Topic 1</option>
+                        <option value="topic_2">Topic 2</option>
+                        <option value="topic_3">Topic 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p><label>Message<span>*</span></label></p>
+                    <textarea name="message" placeholder="Write your message"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Contact Us">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</div>
     
 </body>
 </html>
